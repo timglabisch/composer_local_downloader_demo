@@ -1,0 +1,19 @@
+{
+    "name": "tg/proj1",
+    "description": "....",
+    "keywords": ["package", "dependency", "autoload"],
+    "homepage": "http://getcomposer.org/",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "tg/proj2": "~1.0",
+        "tg/proj3": "~1.0",
+        "tg/libA": "~1.0"
+    },
+    "repositories": [
+        {
+            "type": "local",
+            "url": "../"
+        }
+    ]
+}

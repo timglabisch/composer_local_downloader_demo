@@ -1,0 +1,24 @@
+{
+    "name": "tg/proj2",
+    "description": "....",
+    "keywords": ["package", "dependency", "autoload"],
+    "homepage": "http://getcomposer.org/",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.2",
+        "phpunit/phpunit": "*",
+        "tg/proj3": "~1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "local",
+            "url": "../"
+        }
+    ]
+}

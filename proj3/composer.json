@@ -1,0 +1,22 @@
+{
+    "name": "tg/proj3",
+    "description": "....",
+    "keywords": ["package", "dependency", "autoload"],
+    "homepage": "http://getcomposer.org/",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "ruflin/elastica": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "local",
+            "url": "../"
+        }
+    ]
+}

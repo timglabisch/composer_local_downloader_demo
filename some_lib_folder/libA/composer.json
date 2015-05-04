@@ -1,0 +1,22 @@
+{
+    "name": "tg/libA",
+    "description": "....",
+    "keywords": ["package", "dependency", "autoload"],
+    "homepage": "http://getcomposer.org/",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "tg/libB": "~1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "local",
+            "url": "../../"
+        }
+    ]
+}
