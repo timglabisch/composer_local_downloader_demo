@@ -50,7 +50,7 @@ if you take a closer lock at the composer.lock you'll find
 ]
 ```
 
-the patched composer version has a new repository type called `local`.
+[the patched composer version](https://github.com/timglabisch/composer/tree/local_repository) has a new repository type called `local`.
 this type scans the directory (recursive, but excludes /vendors) and register all the packages.
 
 when you run
