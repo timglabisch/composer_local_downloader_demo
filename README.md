@@ -77,3 +77,16 @@ there are a lot of discussions about, if something like local depedendencies mak
 for example local dependencies can be a great way to save a lot of time, if you're using a monolithic repository approach but you'll get
 in trouble if you try to manage all your dependencies on your own.
 the extra key ensures that it's not suitable to manage third party dependencies using the local repository.
+
+## symlinks to boost the development productivity
+sometimes you're developing on a project, that has a bunch of different packages.
+the packages are higly related to each other and the change frequency is very high.
+running composer update everytime can become a productivity issue.
+if you use local repositories you can symlink them.
+
+```
+./../../composer/bin/composer --prefer-symlink
+
+```
+
+now the directories are symlinked (windows does not support symlinks) and you can work in both directories.
