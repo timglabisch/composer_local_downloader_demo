@@ -20,5 +20,8 @@
             "type": "local",
             "url": "../"
         }
-    ]
+    ],
+    "extra": {
+        "local-dependency": {}
+    }
 }

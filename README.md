@@ -47,7 +47,10 @@ if you take a closer lock at the composer.lock you'll find
         "type": "local",
         "url": "../"
     }
-]
+],
+"extra": {
+    "local-dependency": {}
+}
 ```
 
 [the patched composer version](https://github.com/timglabisch/composer/tree/local_repository) has a new repository type called `local`.
@@ -62,3 +65,15 @@ cd proj1
 
 composer will install all the dependencies for proj1,
 the local repository will copy the required packages in the vendor directory and you can ship the project.
+
+## blacklisted paths
+the local repository ignores sensitive paths.
+a path is considered as sensitive if
+- it's located in an vendor/ directory
+- a parent composer.json requires the package composer/installer
+
+## the local-dependency extra key
+there are a lot of discussions about, if something like local depedendencies make sense.
+for example local dependencies can be a great way to save a lot of time, if you're using a monolithic repository approach but you'll get
+in trouble if you try to manage all your dependencies on your own.
+the extra key ensures that it's not suitable to manage third party dependencies using the local repository.
