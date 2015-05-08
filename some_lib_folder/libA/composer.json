@@ -6,7 +6,7 @@
     "type": "library",
     "license": "MIT",
     "require": {
-        "tg/libB": "~1.0"
+        "tg/libB": "~1.0@dev"
     },
     "autoload": {
         "psr-0": {

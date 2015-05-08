@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b54bea435df383aa4af62a0c552c1174",
+    "hash": "c417a7e589be18e856e1be3de148d73d",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -58,6 +58,7 @@
                 "constructor",
                 "instantiate"
             ],
+            "force-reinstall": false,
             "time": "2014-10-13 12:58:55"
         },
         {
@@ -113,6 +114,7 @@
                 "elasticsearch",
                 "search"
             ],
+            "force-reinstall": false,
             "time": "2015-04-09 09:19:23"
         },
         {
@@ -208,6 +210,7 @@
                 "rest",
                 "web service"
             ],
+            "force-reinstall": false,
             "time": "2015-03-18 18:23:50"
         },
         {
@@ -281,6 +284,7 @@
                 "logging",
                 "psr-3"
             ],
+            "force-reinstall": false,
             "time": "2015-03-09 09:58:04"
         },
         {
@@ -330,6 +334,7 @@
                     "email": "mike.vanriel@naenius.com"
                 }
             ],
+            "force-reinstall": false,
             "time": "2015-02-03 12:10:50"
         },
         {
@@ -390,6 +395,7 @@
                 "spy",
                 "stub"
             ],
+            "force-reinstall": false,
             "time": "2015-04-27 22:15:08"
         },
         {
@@ -452,6 +458,7 @@
                 "testing",
                 "xunit"
             ],
+            "force-reinstall": false,
             "time": "2015-04-11 04:35:00"
         },
         {
@@ -499,6 +506,7 @@
                 "filesystem",
                 "iterator"
             ],
+            "force-reinstall": false,
             "time": "2015-04-02 05:19:05"
         },
         {
@@ -543,6 +551,7 @@
             "keywords": [
                 "template"
             ],
+            "force-reinstall": false,
             "time": "2014-01-30 17:20:04"
         },
         {
@@ -587,6 +596,7 @@
             "keywords": [
                 "timer"
             ],
+            "force-reinstall": false,
             "time": "2013-08-02 07:42:54"
         },
         {
@@ -636,6 +646,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "force-reinstall": false,
             "time": "2015-04-08 04:46:07"
         },
         {
@@ -708,6 +719,7 @@
                 "testing",
                 "xunit"
             ],
+            "force-reinstall": false,
             "time": "2015-04-29 15:18:52"
         },
         {
@@ -763,6 +775,7 @@
                 "mock",
                 "xunit"
             ],
+            "force-reinstall": false,
             "time": "2015-04-02 05:36:41"
         },
         {
@@ -809,6 +822,7 @@
                 "container",
                 "dependency injection"
             ],
+            "force-reinstall": false,
             "time": "2014-07-24 09:48:15"
         },
         {
@@ -847,6 +861,7 @@
                 "psr",
                 "psr-3"
             ],
+            "force-reinstall": false,
             "time": "2012-12-21 11:40:51"
         },
         {
@@ -906,6 +921,7 @@
                 "client",
                 "search"
             ],
+            "force-reinstall": false,
             "time": "2015-02-17 19:57:36"
         },
         {
@@ -970,6 +986,7 @@
                 "compare",
                 "equality"
             ],
+            "force-reinstall": false,
             "time": "2015-01-29 16:28:08"
         },
         {
@@ -1022,6 +1039,7 @@
             "keywords": [
                 "diff"
             ],
+            "force-reinstall": false,
             "time": "2015-02-22 15:13:53"
         },
         {
@@ -1072,6 +1090,7 @@
                 "environment",
                 "hhvm"
             ],
+            "force-reinstall": false,
             "time": "2015-01-01 10:01:08"
         },
         {
@@ -1138,6 +1157,7 @@
                 "export",
                 "exporter"
             ],
+            "force-reinstall": false,
             "time": "2015-01-27 07:23:06"
         },
         {
@@ -1189,6 +1209,7 @@
             "keywords": [
                 "global state"
             ],
+            "force-reinstall": false,
             "time": "2014-10-06 09:23:50"
         },
         {
@@ -1242,6 +1263,7 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
+            "force-reinstall": false,
             "time": "2015-01-24 09:48:32"
         },
         {
@@ -1277,6 +1299,7 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
+            "force-reinstall": false,
             "time": "2015-02-24 06:35:25"
         },
         {
@@ -1336,6 +1359,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
+            "force-reinstall": false,
             "time": "2015-03-13 17:37:22"
         },
         {
@@ -1386,21 +1410,25 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
+            "force-reinstall": false,
             "time": "2015-03-30 15:54:10"
         },
         {
             "name": "tg/libA",
-            "version": "1.0.1430777456",
+            "version": "1.0.0",
             "dist": {
                 "type": "local",
                 "url": "/Users/timglabisch/proj/research/composer_local_repo_demo/some_lib_folder/libA/composer.json",
                 "reference": null,
-                "shasum": "fce63893c8dd80be350362cb0497b690894b7eee"
+                "shasum": "c57b98b76b25b2b8eba3a431b7b9f185f5cba700"
             },
             "require": {
-                "tg/libb": "~1.0"
+                "tg/libb": "~1.0@dev"
             },
             "type": "library",
+            "extra": {
+                "local-dependency": []
+            },
             "autoload": {
                 "psr-0": {
                     "": "src/"
@@ -1415,21 +1443,25 @@
                 "autoload",
                 "dependency",
                 "package"
-            ]
+            ],
+            "force-reinstall": true
         },
         {
             "name": "tg/libB",
-            "version": "1.0.1430777456",
+            "version": "1.0.0",
             "dist": {
                 "type": "local",
                 "url": "/Users/timglabisch/proj/research/composer_local_repo_demo/some_lib_folder/libB/composer.json",
                 "reference": null,
-                "shasum": "c5fe0d5e68f30aa5266df67956dc41cfc1547e7c"
+                "shasum": "38586859311cecc68e7ae98f8859e9772a470405"
             },
             "require": {
                 "elasticsearch/elasticsearch": "*"
             },
             "type": "library",
+            "extra": {
+                "local-dependency": []
+            },
             "autoload": {
                 "psr-0": {
                     "": "src/"
@@ -1444,23 +1476,27 @@
                 "autoload",
                 "dependency",
                 "package"
-            ]
+            ],
+            "force-reinstall": true
         },
         {
             "name": "tg/proj2",
-            "version": "1.0.1430777456",
+            "version": "1.0.0",
             "dist": {
                 "type": "local",
                 "url": "/Users/timglabisch/proj/research/composer_local_repo_demo/proj2/composer.json",
                 "reference": null,
-                "shasum": "9e51757ba9562e2d10d0f35ceceb5db467de9489"
+                "shasum": "dd9b313b154159cfdbb49a5d531c706033e8f748"
             },
             "require": {
                 "php": ">=5.3.2",
                 "phpunit/phpunit": "*",
-                "tg/proj3": "~1.0"
+                "tg/proj3": "~1.0@dev"
             },
             "type": "library",
+            "extra": {
+                "local-dependency": []
+            },
             "autoload": {
                 "psr-0": {
                     "": "src/"
@@ -1475,21 +1511,25 @@
                 "autoload",
                 "dependency",
                 "package"
-            ]
+            ],
+            "force-reinstall": true
         },
         {
             "name": "tg/proj3",
-            "version": "1.0.1430777456",
+            "version": "1.0.0",
             "dist": {
                 "type": "local",
                 "url": "/Users/timglabisch/proj/research/composer_local_repo_demo/proj3/composer.json",
                 "reference": null,
-                "shasum": "3487f61e8fae64d1fe55650d414d68b1b1680cad"
+                "shasum": "7a66d2cef2e06a4145bd29260e1a1dc6ef3f7e32"
             },
             "require": {
                 "ruflin/elastica": "*"
             },
             "type": "library",
+            "extra": {
+                "local-dependency": []
+            },
             "autoload": {
                 "psr-0": {
                     "": "src/"
@@ -1504,13 +1544,18 @@
                 "autoload",
                 "dependency",
                 "package"
-            ]
+            ],
+            "force-reinstall": true
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "tg/proj2": 20,
+        "tg/proj3": 20,
+        "tg/liba": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

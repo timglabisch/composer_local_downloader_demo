@@ -6,9 +6,9 @@
     "type": "library",
     "license": "MIT",
     "require": {
-        "tg/proj2": "~1.0",
-        "tg/proj3": "~1.0",
-        "tg/libA": "~1.0"
+        "tg/proj2": "~1.0@dev",
+        "tg/proj3": "~1.0@dev",
+        "tg/libA": "~1.0@dev"
     },
     "repositories": [
         {
